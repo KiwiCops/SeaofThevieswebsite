@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, white, #969696, black);
+}
+header{
+  background: linear-gradient(90deg, white, #969696, black);
+Height: 40px
+}
+nav{
+ background-color: black;)
+  Height: 40px
+  color: white; 
+  overflow: hidden;
+}
+section{
+    background: linear-gradient(180deg, white, #969696, black);
+  Height: 150px
+}
+Nav ul{
+  width: 60%;
+  margin: auto;
+}
+Nav ul li {
+  display: inline-flexboxock;
+  margin: -1% -30%;
+}
+Nav ul li a{
+  display: block;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: white;
+  color: red;
+}
+Nav li ui{
+  padding: 0px;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+nav li ul li{
+  display: block;
+  width: 70%;
+  background-color: rgba(0,0,0,0.3);
+}
+.hidden{
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+nav li:hover .hidden{
+  opacity: 1;
+}
+
+dropbox{
+    overflow: hidden;
+}
+
+footer{
+  background: green;
+  height: 20px
+}
