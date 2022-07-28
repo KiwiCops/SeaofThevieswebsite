@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet"
+    type="text/css"/>
+</head>
+
+<body>
+  <div id="wrapper">
+  <div class="navbar">
+    
+  <a href="index.html">Home</a>
+    
+  <a href="map.html">Map</a>
+  
+    <div class="dropdown">
+    <button class="dropbtn">Lore 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="shore.html">Shores of gold</a>
+      <a href="devil.html">The devils roar</a>
+    </div>
+  </div> 
+ </div>
+    <section> 
+      <img class="img-map" src="img/map.jpg" alt="hi">
+    Locations of all outposts:
+      <br>Sanctuary Outpost	F-7	The Shores of Plenty</br>
+      <br>New Golden Sands Outpost	D-10	The Shores of            Plenty Trades to Plunder</br>
+      <br>Plunder Outpost	J-18	The Ancient Isles trade            to Golden Sands
+      <br>Ancient Spire Outpost	Q-17	The Ancient                  Isles trades to galleon</br>
+      <br>Galleon's Grave Outpost	R-8	The Wilds trades 
+          to Ancient</br>
+      <br>Dagger Tooth Outpost	M-8	The Wilds trade to             Morrow's</br>
+      <br>Morrow's Peak Outpost	V-17	The Devil's              Roar trade to Dagger</br>
+      
+      
+      
+    </section>
+    <div id="content"></div>
+    
+  <footer></footer>
+  </div> 
+  </body>
+
+</html>
