@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet"
+    type="text/css"/>
+</head>
+  <!-- Header and title -->
+    <header>     
+  <div style="float: left">
+  <img src="img/sea.jpg" alt="hi" style='height:     
+  50px;'> 
+  </div> <h2> Sea Of Thieves Help</h2> 
+  </header>
+     <!-- Nav Bar -->
+<body>
+  <div id="wrapper">
+   <div class="navbar">
+    
+  <a href="index.html">Home</a>
+    
+  <a href="map.html">Map</a>
+  
+    <div class="dropdown">
+    <button class="dropbtn">Lore 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="shore.html">Shores of gold</a>
+      <a href="devil.html">The devils roar</a>
+    </div>
+  </div>
+     <!-- Main section -->
+ </div>
+    <section> 
+       <p> This page will have the lore of the Sea of Thieves on it. You can learn about how to earn gold and reputation on this page. You will also learn about the lore related to the game.   </p>
+     <!-- Slideshow -->
+     <div style="float: left">
+    <div class="w3-content w3-display-container">
+    <img class="mySlides" src="img/Gold.png"   style="width:40%">
+  <img class="mySlides" src="img/sea.jpg" style="width:40%">
+  <img class="mySlides" src="img/Gold.png" style="width:40%">
+  <img class="mySlides" src="img/sea.jpg" style="width:40%">
+    </div>
+   
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+      
+      
+    </section>
+    <div id="content"></div>
+    
+  <footer></footer>
+  </div> 
+  <script src="script.js"></script>
+  </body>
+
+  
+</html>
